@@ -66,4 +66,4 @@ return (
 
 ## License
 
-This project is licensed under the [MIT](LICENSE.txt) license.
+This project is licensed under the [MIT](./LICENSE) license.
