@@ -1,5 +1,6 @@
 import React from "react";
 
+//About me component with avatar
 function AboutMe() {
   return (
     <div className="text-left section">

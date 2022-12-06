@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "./Navigation";
 
+//header component
 function Header(props) {
   return (
     <header className="header d-flex">

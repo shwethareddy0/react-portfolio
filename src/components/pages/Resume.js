@@ -1,5 +1,6 @@
 import React from "react";
 
+//resume component with a downloadable resume document link
 function Resume() {
   return (
     <div className="text-left section">

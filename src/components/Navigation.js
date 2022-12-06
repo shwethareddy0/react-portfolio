@@ -1,5 +1,5 @@
 import React from "react";
-
+//container for header links
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav justify-content-end">

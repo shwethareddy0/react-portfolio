@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 
 function Portfolio() {
+  //array to hold all the projects' details
   const projects = [
     {
       title: "HOMR",
@@ -42,6 +43,7 @@ function Portfolio() {
   ];
   return (
     <div className="portfolio">
+      {/*iterate over the array and render project cards*/}
       {projects.map((project) => {
         return <ProjectCard project={project} />;
       })}

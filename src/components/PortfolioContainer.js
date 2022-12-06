@@ -4,6 +4,7 @@ import Header from "./Header";
 import Section from "./Section";
 import Footer from "./Footer";
 
+// root container
 function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About me");
   return (
