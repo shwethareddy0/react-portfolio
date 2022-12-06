@@ -5,7 +5,7 @@ function AboutMe() {
     <div className="text-left section">
       <h4>About me</h4>
       <br />
-      <img src="avatar.png" alt="avatar" height={80} width={80} />
+      <img src="./avatar.png" alt="avatar" height={80} width={80} />
       <br />
       <br />
       <p>
