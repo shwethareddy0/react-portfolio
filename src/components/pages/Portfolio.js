@@ -41,7 +41,7 @@ function Portfolio() {
     },
   ];
   return (
-    <div>
+    <div className="portfolio">
       {projects.map((project) => {
         return <ProjectCard project={project} />;
       })}

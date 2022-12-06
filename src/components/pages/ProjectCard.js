@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectCard(props) {
   return (
-    <div className="border border-danger">
+    <div className="card border border-danger">
       <a className="nav-link active" href={props.project.repo}>
         {props.project.title}
       </a>{" "}
