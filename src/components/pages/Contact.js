@@ -41,7 +41,7 @@ function Contact() {
     }
   };
   return (
-    <div className="text-left section">
+    <div className="text-left section contact-page">
       <h4>Contact</h4>
       <form>
         <div className="form-group">

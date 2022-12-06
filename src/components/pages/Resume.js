@@ -2,13 +2,15 @@ import React from "react";
 
 function Resume() {
   return (
-    <div className="text-left">
+    <div className="text-left section">
       <h4>Resume</h4>
       <p>
         Download my{" "}
         <a href="/Resume.pdf" dowmload="resume">
           resume
         </a>
+        <br />
+        <br />
         <h5>Front-end proficiencies</h5>
         <ul>
           <li>HTML</li>

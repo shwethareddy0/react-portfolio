@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="navbar fixed-bottom justify-content-center ">
+    <div className="navbar fixed-bottom justify-content-center footer">
       <ul className="nav justify-content-center">
         <li className="nav-item">
           <a

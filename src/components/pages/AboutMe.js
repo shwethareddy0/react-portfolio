@@ -4,7 +4,10 @@ function AboutMe() {
   return (
     <div className="text-left section">
       <h4>About me</h4>
-      <img src="/avatar.png" alt="avatar" height={50} width={50} />
+      <br />
+      <img src="/avatar.png" alt="avatar" height={80} width={80} />
+      <br />
+      <br />
       <p>
         Student at UC Berkeley Boot Camps. Human Resource professional with 5
         years of experience in all the core Human Resource operations that
