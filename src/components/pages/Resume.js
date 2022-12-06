@@ -6,7 +6,7 @@ function Resume() {
       <h4>Resume</h4>
       <p>
         Download my{" "}
-        <a href="/Resume.pdf" dowmload="resume">
+        <a href="Resume.pdf" dowmload="resume">
           resume
         </a>
         <br />
