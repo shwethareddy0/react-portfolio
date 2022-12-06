@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div className="text-left">
+    <div className="text-left section">
       <h4>About me</h4>
       <img src="/avatar.png" alt="avatar" height={50} width={50} />
       <p>

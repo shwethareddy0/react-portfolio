@@ -3,7 +3,7 @@ import React from "react";
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav justify-content-end">
-      <li className="nav-item">
+      <li className="nav-item ">
         <a
           href="#about me"
           onClick={() => handlePageChange("About me")}
@@ -11,7 +11,7 @@ function Navigation({ currentPage, handlePageChange }) {
             currentPage === "About me" ? "nav-link active" : "nav-link"
           }
         >
-          About me
+          <h3>About me</h3>
         </a>
       </li>
 
@@ -23,7 +23,7 @@ function Navigation({ currentPage, handlePageChange }) {
             currentPage === "Portfolio" ? "nav-link active" : "nav-link"
           }
         >
-          Portfolio
+          <h3>Portfolio</h3>
         </a>
       </li>
       <li className="nav-item">
@@ -32,7 +32,7 @@ function Navigation({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
-          Contact
+          <h3>Contact</h3>
         </a>
       </li>
       <li className="nav-item">
@@ -41,7 +41,7 @@ function Navigation({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("Resume")}
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
-          Resume
+          <h3>Resume</h3>
         </a>
       </li>
     </ul>
