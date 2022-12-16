@@ -11,6 +11,13 @@ function Portfolio() {
       technologies: "JavaScript, jQuery, Chart.js, BULMA, Server Side APIs",
     },
     {
+      title: "InvestorRest",
+      link: "https://investorrest.herokuapp.com/",
+      repo: "https://github.com/shwethareddy0/investorrest",
+      technologies:
+        "HTML,Bootstrap, SCSS, React,Node.js,Express.js,Mongoose,Axios",
+    },
+    {
       title: "Tech Blog",
       link: "https://sr-tech-blog.herokuapp.com/",
       repo: "https://github.com/shwethareddy0/tech-blog",
@@ -33,12 +40,6 @@ function Portfolio() {
       link: "https://shwethareddy0.github.io/code-quiz/",
       repo: "https://github.com/shwethareddy0/code-quiz",
       technologies: "HTML5, CSS, JavaScript",
-    },
-    {
-      title: "Text Editor",
-      link: "https://text-editor-pwa-sp.herokuapp.com/",
-      repo: "https://github.com/shwethareddy0/text-editor",
-      technologies: "PWA, Service Workers, CodeMirror, Express.js, IndexedDB",
     },
   ];
   return (
